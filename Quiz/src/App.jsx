@@ -1,12 +1,14 @@
-import Result from "./components/Result"
+import {Routes,Route} from "react-router-dom";
+import Home from "./components/Home";
+import "./index.css"
 
 function App() {
 
-
   return (
-  <div>
-    <Result/>
-  </div>
+    <Routes>
+      <Route path="/" element={<Home/>}></Route>
+      <Route path="/" element={<></>}></Route>
+    </Routes>
   
   )
 }
