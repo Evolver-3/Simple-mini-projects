@@ -10,6 +10,10 @@ const QuizArea=()=>{
       <p>Score: <span>2</span></p>
       </div>
 
+      <div className="w-full">
+         <div className="w-full bg-orange-300 h-auto text-white rounded-lg px-2">heool</div>
+      </div>
+
     </div>
 
   </div>
